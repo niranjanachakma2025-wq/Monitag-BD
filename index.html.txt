@@ -224,7 +224,7 @@ function updateProgressCircle(){
 // Watch Ad
 document.getElementById('watch-ad-btn').addEventListener('click', ()=>{
     if(!monetagLoaded){ alert('Ad service not loaded yet!'); return; }
-    show_10135959().then(()=>{
+    show_10081091().then(()=>{
         watchedAdsCount++;
         earnedPoints += 0.5;
         document.getElementById('watched-ads').textContent = watchedAdsCount;
